@@ -21,7 +21,7 @@ tokenizer_model_name = "distilbert-base-uncased"  # Smaller model for tokenizati
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_model_name)
 model = AutoModel.from_pretrained(tokenizer_model_name)
 API_URL = "https://api-inference.huggingface.co/models/openai-community/gpt2"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer USE Hugging face Auth Token"}
 
 # Function to get embeddings from Hugging Face model
 @st.cache_data
